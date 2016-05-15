@@ -7,7 +7,9 @@ The app has as server and browser front-end. The server gets a picture stream fr
 
 # directory structure
 index.js - server
+
 lib - modules using camera and openCV
+
 src - front-end code
 
 # use

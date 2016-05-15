@@ -1,0 +1,43 @@
+{
+  "name": "dcped-hack",
+  "version": "1.0.0",
+  "description": "pedestrian detection hack",
+  "main": "index.js",
+  "dependencies": {
+    "bufferutil": "^1.2.1",
+    "debug": "^2.2.0",
+    "ecstatic": "^1.4.1",
+    "hyperx": "^2.0.3",
+    "jpeg-stream": "^0.1.0",
+    "main-loop": "^3.2.0",
+    "opencv-image-stream": "^1.0.0",
+    "redux": "^3.5.2",
+    "utf-8-validate": "^1.2.1",
+    "virtual-dom": "^2.1.1",
+    "ws": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "build": "browserify src/index.js --outfile public/bundle.js",
+    "dbg": "DEBUG=dcped* nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node_modules/watchify/bin/cmd.js --debug src/*.js --outfile public/bundle.js"
+  },
+  "author": "john@primitivemachine.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/johnelliott/dcped-hack.git"
+  },
+  "keywords": [
+    "node", "openCV", "raspberry"
+  ],
+  "bugs": {
+    "url": "https://github.com/johnelliott/dcped-hack/issues"
+  },
+  "homepage": "https://github.com/johnelliott/dcped-hack#readme"
+}

@@ -13,7 +13,9 @@ lib - modules using camera and openCV
 src - front-end code
 
 # use
-change `lib/ssh-cam.js` to ssh to your Pi—this is the hacky bit
-the front-end uses hyperx, which requires a browser supporting template literals
-check out the `watch`, `build`, and `dbg` npm scripts in `package.json` to build and run the app in debug mode
+Change `lib/ssh-cam.js` to ssh to your Pi—this is the hacky bit.
+
+Uses Node v4+ or whenever spreads were introduced. The front-end uses requires a browser supporting template literals.
+
+Check out the `watch`, `build`, and `dbg` npm scripts in `package.json` to build and run the app in debug mode
 
